@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+html, body {
+  background: black;
+}
+
+h3#content {
+  color: #149414;
+  font-size: large;
+  text-align: center;
+}
+
+h3#err_msg_browser {
+  color: #FF0000;
+  font-size: large;
+  text-align: center;
+}
+
+button#voice-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */

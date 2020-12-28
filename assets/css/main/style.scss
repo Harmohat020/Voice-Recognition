@@ -1,0 +1,31 @@
+@import '../variables';
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+html,body{
+    background: $bg-dark;
+}
+
+h3#content{
+    color: $txt-dark;
+    font-size: large;
+    text-align: center;
+}
+
+h3#err_msg_browser{
+    color: $txt-error;
+    font-size: large;
+    text-align: center;
+}
+
+button#voice-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
